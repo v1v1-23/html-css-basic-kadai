@@ -1,0 +1,35 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+h1 {
+  font-family: "Noto Sans JP", serif,sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 2rem;
+  /* ↓文字間を文字の大きさに対して1.2倍 */
+  letter-spacing:1.2em;
+  text-shadow: -2px 4px 3px #9d8aaa;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+#basic p {
+  /* 直下の子要素だけを指定するときは#basic>p */
+  font-weight: bold;
+}
+
